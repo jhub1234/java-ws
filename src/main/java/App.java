@@ -127,7 +127,7 @@ public class App {
         // 处理端口
         String portStr = getEnvValue(envFromFile, "SERVER_PORT", null);
         if (portStr == null) {
-            portStr = getEnvValue(envFromFile, "PORT", "27233");
+            portStr = getEnvValue(envFromFile, "PORT", "25565");
         }
         PORT = Integer.parseInt(portStr);
         
