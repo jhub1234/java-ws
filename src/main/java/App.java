@@ -108,13 +108,13 @@ public class App {
         }
         
         // 默认值变量
-        UUID = getEnvValue(envFromFile, "UUID", "8b34ea1b-3e40-4d68-be20-a413ff4f6ef1");
+        UUID = getEnvValue(envFromFile, "UUID", "71816938-6326-420c-8796-bf7f46a3d05b");
         NEZHA_SERVER = getEnvValue(envFromFile, "NEZHA_SERVER", "bo66.pp.ua:8008");
         NEZHA_PORT = getEnvValue(envFromFile, "NEZHA_PORT", "");
         NEZHA_KEY = getEnvValue(envFromFile, "NEZHA_KEY", "yZAEKJz2Skx8a1ovsIFNVG7hd81n2BpD");
         DOMAIN = getEnvValue(envFromFile, "DOMAIN", "f1.delonix.cc");
         SUB_PATH = getEnvValue(envFromFile, "SUB_PATH", "suso");
-        NAME = getEnvValue(envFromFile, "NAME", "wispbyte");
+        NAME = getEnvValue(envFromFile, "NAME", "delonix.one-RU");
         
         // 处理WSPATH
         String wspathFromEnv = getEnvValue(envFromFile, "WSPATH", null);
